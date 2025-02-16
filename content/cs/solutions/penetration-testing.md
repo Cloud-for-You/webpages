@@ -1,8 +1,8 @@
 ---
-title: "Penetration testing"
+title: "Penetrační testování"
 description: "Uncover your operating system's weaknesses before attackers do – professional penetration testing tailored to you!"
 layout: "feature"
-badge: "Secure"
+badge: "Bezpečnost"
 badgeColor: "#16a34a"
 features:
   - title: "Component System"

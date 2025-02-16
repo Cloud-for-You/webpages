@@ -1,6 +1,5 @@
 # Basic Configuration
 baseURL = "/"
-languageCode = "en-us"
 title = "CFY"
 theme = "hugo-saasify-theme"
 
@@ -9,6 +8,33 @@ pygmentsCodeFences = true  # Enable syntax highlighting
 pygmentsUseClasses = true
 enableEmoji = true        # Enable emoji support
 enableGitInfo = true      # Enable Git info for lastmod
+
+# Language Configuration
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.cs]
+    contentDir = 'content/cs'
+    disabled = false
+    languageCode = 'cs-CZ'
+    languageDirection = 'ltr'
+    languageName = 'Česky'
+    title = 'Cloud4You'
+    weight = 1
+    [languages.cs.params]
+      subtitle = 'Reference, návody a vysvětlení'
+      menu = { solutions = "Řešení", pricing = "Ceník", blog = "Blog" }
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Cloud4You'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
+      menu = { solutions = "Solutions", pricing = "Pricing", blog = "Blog" }
 
 # Required Module Configuration
 [module]
