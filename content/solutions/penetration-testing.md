@@ -1,8 +1,8 @@
 ---
-title: "Developer Experience"
-description: "Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
+title: "Penetration testing"
+description: "Uncover your operating system's weaknesses before attackers do – professional penetration testing tailored to you!"
 layout: "feature"
-badge: "Development"
+badge: "Secure"
 badgeColor: "#16a34a"
 features:
   - title: "Component System"

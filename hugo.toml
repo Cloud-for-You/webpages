@@ -1,7 +1,7 @@
 # Basic Configuration
 baseURL = "/"
 languageCode = "en-us"
-title = "Your Site Title"
+title = "CFY"
 theme = "hugo-saasify-theme"
 
 # Required Features
@@ -73,20 +73,21 @@ enableGitInfo = true      # Enable Git info for lastmod
 
   # Social Media Links (optional)
   [params.social]
-    linkedin = "https://linkedin.com/in/yourusername"
-    twitter = "https://twitter.com/yourusername"
-    github = "https://github.com/yourusername"
+    linkedin = "https://www.linkedin.com/company/cfycz/?viewAsMember=true"
+    #twitter = "https://twitter.com/yourusername"
+    github = "https://github.com/cloud-for-you"
 
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Features"
+    name = "Solutions"
     weight = 1
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Feature 1", url = "/features/feature-1/" },
-        { name = "Feature 2", url = "/features/feature-2/" }
+        { name = "Design IT Infrastructure", url = "/solutions/design-it-infrastructure/" },
+        { name = "Penetration testing", url = "/solutions/penetration-testing/" },
+        { name = "Performance", url = "/solutions/performance/" }
       ]
   [[menu.main]]
     name = "Pricing"

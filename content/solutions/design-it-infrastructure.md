@@ -1,5 +1,5 @@
 ---
-title: "Beautiful Design System"
+title: "Návrh IT infrastruktury"
 description: "Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
 layout: "feature"
 badge: "Design"
