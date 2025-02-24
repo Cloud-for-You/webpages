@@ -1,5 +1,5 @@
 # Basic Configuration
-baseURL = "/"
+baseURL = "http://cloud-for-you.github.io/webpages/"
 title = "CFY"
 theme = "hugo-saasify-theme"
 
