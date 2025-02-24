@@ -3,3 +3,27 @@ other = "About us"
 
 [contact]
 other = "Contact"
+
+[solutions]
+other = "Solutions"
+
+[pricing]
+other = "Pricing"
+
+[blog]
+other = "Blog" 
+
+[design_it_infrastructure]
+other = "Design IT Infrastructure"
+
+[penetration_testing]
+other = "Penetration testing"
+
+[performance]
+other = "Performance"
+
+[sign_in]
+other = "Sign in"
+
+[get_started]
+other = "Get Started"

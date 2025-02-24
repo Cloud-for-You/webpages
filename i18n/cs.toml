@@ -3,3 +3,27 @@ other = "O nás"
 
 [contact]
 other = "Kontakt"
+
+[solutions]
+other = "Řešení"
+
+[pricing]
+other = "Ceník"
+
+[blog]
+other = "Blog"
+
+[design_it_infrastructure]
+other = "Návrh IT Infrastruktury"
+
+[penetration_testing]
+other = "Penetrační testování"
+
+[performance]
+other = "Výkon"
+
+[sign_in]
+other = "Přihlásit"
+
+[get_started]
+other = "Začínáme"                        

@@ -1,6 +1,6 @@
 ---
 title: "Design IT Infrastructure"
-description: "Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
+description: "We will design IT infrastructure tailored to your needs and requirements. We ensure it is reliable, secure, and scalable. We provide the right combination of technologies, whether it’s servers, cloud solutions, or network architecture, and set everything up to work efficiently and without unnecessary complexity. You can focus on your business while we take care of its technological foundation."
 layout: "feature"
 badge: "Design"
 badgeColor: "#7c3aed"

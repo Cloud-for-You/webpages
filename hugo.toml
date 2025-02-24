@@ -23,7 +23,6 @@ defaultContentLanguageInSubdir = true
     weight = 1
     [languages.cs.params]
       subtitle = 'Reference, návody a vysvětlení'
-      menu = { solutions = "Řešení", pricing = "Ceník", blog = "Blog" }
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -34,7 +33,6 @@ defaultContentLanguageInSubdir = true
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
-      menu = { solutions = "Solutions", pricing = "Pricing", blog = "Blog" }
 
 # Required Module Configuration
 [module]
@@ -62,7 +60,7 @@ defaultContentLanguageInSubdir = true
 # Theme Parameters
 [params]
   description = "Your site description"
-  author = "Your Name"
+  author = "Petr Hatoň"
   logo = "/images/logo.svg"      # Path to your logo
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   googleAnalytics = "G-XXXXXXXXXX"  # Only enabled in production
@@ -79,10 +77,10 @@ defaultContentLanguageInSubdir = true
     # Header Buttons (optional)
     [params.header.buttons]
       [params.header.buttons.signIn]
-        text = "Sign in"
+        text = "sign_in"
         url = "/signin"
       [params.header.buttons.getStarted]
-        text = "Get Started"
+        text = "get_started"
         url = "/get-started"
 
   # Global CTA Configuration (optional)
@@ -106,20 +104,20 @@ defaultContentLanguageInSubdir = true
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Solutions"
+    name = "solutions"
     weight = 1
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Design IT Infrastructure", url = "/solutions/design-it-infrastructure/" },
-        { name = "Penetration testing", url = "/solutions/penetration-testing/" },
-        { name = "Performance", url = "/solutions/performance/" }
+        { name = "design_it_infrastructure", url = "/solutions/design-it-infrastructure/" },
+        { name = "penetration_testing", url = "/solutions/penetration-testing/" },
+        { name = "performance", url = "/solutions/performance/" }
       ]
   [[menu.main]]
-    name = "Pricing"
+    name = "pricing"
     url = "/pricing"
     weight = 2
   [[menu.main]]
-    name = "Blog"
+    name = "blog"
     url = "/blog"
     weight = 3
