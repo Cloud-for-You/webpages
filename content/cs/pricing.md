@@ -1,24 +1,24 @@
 ---
-title: "Pricing"
+title: "Ceník"
 description: "Choose the perfect plan for your needs"
 layout: "pricing"
 ---
 
 {{< pricing-table-1 >}}
 {
-    "title": "Designed for business teams like yours",
-    "description": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
+    "title": "Řešení, které nejlépe vyhovuje vašim potřebám",
+    "description": "",
     "plans": [
         {
-            "name": "Starter",
-            "price": "29",
-            "description": "Best option for personal use & for your next project.",
+            "name": "Analýza",
+            "price": "od 30.000,-",
+            "description": "Detailní posouzení a návrh řešení přizpůsobený vašim specifickým požadavkům. Ideální pro zákazníky, kteří potřebují odborný pohled a jasné doporučení.",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 1 developer",
-                "Premium support: 6 months",
-                "Free updates: 6 months"
+                "Sběr a vyhodnocení požadavků",
+                "Detailní technická analýza aktuálního stavu",
+                "Návrh optimálního řešení a architektury",
+                "Identifikace možných rizik a omezení",
+                "Dokumentace s doporučeními"
             ],
             "button": {
                 "text": "Get started",
@@ -26,9 +26,9 @@ layout: "pricing"
             }
         },
         {
-            "name": "Company",
-            "price": "99",
-            "description": "Relevant for multiple users, extended & premium support.",
+            "name": "Implementace",
+            "price": "od 50.000,-",
+            "description": "Komplexní nasazení řešení. Vhodné pro zákazníky, kteří chtějí efektivně realizovat projekt s využitím odborných znalostí a nejnovějších technologických postupů.",
             "featured": true,
             "features": [
                 "Individual configuration",
@@ -43,9 +43,9 @@ layout: "pricing"
             }
         },
         {
-            "name": "Enterprise",
-            "price": "499",
-            "description": "Best for large scale uses and extended redistribution rights.",
+            "name": "Technické konzultace",
+            "price": "od 3 500 hod.",
+            "description": "Vysoce specializovaná konzultační činnost. Expertní podpora pro rozsáhlé projekty a náročné technické výzvy. Určeno pro zákazníky, kteří potřebují specializované poradenství a asistenci při optimalizaci či rozvoji infrastruktury.",
             "features": [
                 "Individual configuration",
                 "No setup, or hidden fees",
@@ -61,7 +61,7 @@ layout: "pricing"
     ]
 }
 {{< /pricing-table-1 >}}
-
+<!--
 <div class="mt-16"></div>
 
 {{< pricing-table-2 >}}
@@ -121,7 +121,7 @@ layout: "pricing"
     ]
 }
 {{< /pricing-table-2 >}}
-
+-->
 {{< faq >}}
 {
     "title": "Common Questions",
