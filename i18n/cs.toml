@@ -19,11 +19,14 @@ other = "Návrh IT Infrastruktury"
 [penetration_testing]
 other = "Penetrační testování"
 
-[performance]
-other = "Výkon"
+[technical_consultant]
+other = "Technické konzultace (TAM)"
 
 [sign_in]
 other = "Přihlásit"
 
 [get_started]
-other = "Začínáme"                        
+other = "Začínáme"
+
+[month]
+other = "měsíčně"

@@ -19,11 +19,14 @@ other = "Design IT Infrastructure"
 [penetration_testing]
 other = "Penetration testing"
 
-[performance]
-other = "Performance"
+[technical_consultant]
+other = "Technical consultant (TAM)"
 
 [sign_in]
 other = "Sign in"
 
 [get_started]
 other = "Get Started"
+
+[month]
+other = "month"
