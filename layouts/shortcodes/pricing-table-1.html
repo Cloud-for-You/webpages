@@ -17,7 +17,7 @@
                     <div class="h-full flex flex-col rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg transition-shadow duration-300 relative">
                         {{ if .featured }}
                         <div class="absolute top-4 right-4 inline-block rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-800">
-                            Popular
+                          {{ i18n "popular" | default "Popular"}}  
                         </div>
                         {{ end }}
                         <div class="p-8 flex flex-col flex-grow">
