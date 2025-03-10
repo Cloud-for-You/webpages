@@ -35,7 +35,7 @@ testimonials:
     gradient-angle="180"
 >}}
 
-{{< client-logos animate="true" >}}
+<!--{{< client-logos animate="true" >}}-->
 
 {{< features-section 
     title="Modern Features for Modern Websites"
