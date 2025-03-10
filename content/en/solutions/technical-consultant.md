@@ -1,8 +1,8 @@
 ---
-title: "Lightning-Fast Performance"
+title: "Technical consultant"
 description: "Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
 layout: "feature"
-badge: "Performance"
+badge: "TAM"
 badgeColor: "#2563eb"
 features:
   - title: "Sub-second Page Loads"

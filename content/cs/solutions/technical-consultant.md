@@ -1,8 +1,8 @@
 ---
-title: "Bleskově rychlý výkon"
-description: "Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
+title: "Technické konzultace"
+description: "Servis pro zákazníky, kteří potřebují pomoc s plánováním a úspěšným nasazením svého softwaru nebo infrastruktury. TAM slouží jako jednotné kontaktní místo pro zákazníky, protože jejich technologické potřeby se vyvíjejí."
 layout: "feature"
-badge: "Performance"
+badge: "TAM"
 badgeColor: "#2563eb"
 features:
   - title: "Sub-second Page Loads"
