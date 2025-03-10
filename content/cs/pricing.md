@@ -1,12 +1,12 @@
 ---
-title: "Ceník"
+title: ""
 description: "Choose the perfect plan for your needs"
 layout: "pricing"
 ---
 
 {{< pricing-table-1 >}}
 {
-    "title": "Řešení, které nejlépe vyhovuje vašim potřebám",
+    "title": "Vyberte si řešení, které nejlépe vyhovuje vašim potřebám",
     "description": "",
     "plans": [
         {
@@ -21,7 +21,7 @@ layout: "pricing"
                 "Dokumentace s doporučeními"
             ],
             "button": {
-                "text": "Get started",
+                "text": "Kontaktujte nás",
                 "url": "#"
             }
         },
@@ -38,7 +38,7 @@ layout: "pricing"
                 "Free updates: 24 months"
             ],
             "button": {
-                "text": "Get started",
+                "text": "Kontaktujte nás",
                 "url": "#"
             }
         },
@@ -54,7 +54,7 @@ layout: "pricing"
                 "Free updates: 36 months"
             ],
             "button": {
-                "text": "Get started",
+                "text": "Kontaktujte nás",
                 "url": "#"
             }
         }
