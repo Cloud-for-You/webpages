@@ -60,12 +60,14 @@
                     {{ end }}
 
                     <div class="relative group">
+                      {{ if gt (len .Site.Languages) 1 }}
                       <button class="flex items-center text-base text-gray-900 hover:text-primary-600 font-bold transition duration-200">
                           🌐 {{ .Site.Language.LanguageName }}
                           <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                           </svg>
                       </button>
+                      {{ end}}
                       <div class="absolute left-0 mt-2 w-40 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
                           <div class="py-2 bg-white border border-gray-100 shadow-xl rounded-lg">
                               {{ range .Site.Languages }}

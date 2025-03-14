@@ -24,16 +24,16 @@ defaultContentLanguageInSubdir = true
     weight = 1
     [languages.cs.params]
       subtitle = 'Reference, návody a vysvětlení'
-  [languages.en]
-    contentDir = 'content/en'
-    disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    title = 'Cloud4You'
-    weight = 2
-    [languages.en.params]
-      subtitle = 'Reference, Tutorials, and Explanations'
+#  [languages.en]
+#    contentDir = 'content/en'
+#    disabled = false
+#    languageCode = 'en-US'
+#    languageDirection = 'ltr'
+#    languageName = 'English'
+#    title = 'Cloud4You'
+#    weight = 2
+#    [languages.en.params]
+#      subtitle = 'Reference, Tutorials, and Explanations'
 
 # Required Module Configuration
 [module]
