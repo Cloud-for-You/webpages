@@ -13,9 +13,9 @@ features:
     description: "Identifikujeme slabiny v přístupech k repozitářům, ochraně secretů a nasazovacích procesech."
   - title: "Cloudová a on-prem infrastruktura"
     description: "Provedeme audit a testy bezpečnosti Kubernetes clusterů, API endpointů a síťové komunikace."
-demo:
-  description: "See how our developer-friendly architecture makes building websites a breeze."
-  image: "/images/feature-3.svg"
+#demo:
+#  description: "See how our developer-friendly architecture makes building websites a breeze."
+#  image: "/images/feature-3.svg"
 ---
 
 ## Built for Developers

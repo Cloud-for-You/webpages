@@ -12,6 +12,7 @@ layout: "pricing"
         {
             "name": "Analýza",
             "price": "od 30.000,-",
+            "billing_cycle": "",
             "description": "Detailní posouzení a návrh řešení přizpůsobený vašim specifickým požadavkům. Ideální pro zákazníky, kteří potřebují odborný pohled a jasné doporučení.",
             "features": [
                 "Sběr a vyhodnocení požadavků",
@@ -28,6 +29,7 @@ layout: "pricing"
         {
             "name": "Implementace",
             "price": "od 50.000,-",
+            "billing_cycle": "",
             "description": "Komplexní nasazení řešení. Vhodné pro zákazníky, kteří chtějí efektivně realizovat projekt s využitím odborných znalostí a nejnovějších technologických postupů.",
             "featured": true,
             "features": [
@@ -44,7 +46,8 @@ layout: "pricing"
         },
         {
             "name": "Technické konzultace",
-            "price": "od 3 500 hod.",
+            "price": "od 3 500,-",
+            "billing_cycle": "hodina",
             "description": "Vysoce specializovaná konzultační činnost. Expertní podpora pro rozsáhlé projekty a náročné technické výzvy. Určeno pro zákazníky, kteří potřebují specializované poradenství a asistenci při optimalizaci či rozvoji infrastruktury.",
             "features": [
                 "Individual configuration",

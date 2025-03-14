@@ -12,23 +12,23 @@ client_logos:
   - name: "Customer 5"
     logo: "/images/logos/customer-5.png"
 testimonials:
-  - name: "John Smith"
-    title: "CTO at TechStartup"
+  - name: "Vilma Hatoňová"
+    title: "CEO & Founder"
     avatar: "/images/testimonial-1.svg"
-    quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
-  - name: "Sarah Johnson"
-    title: "Founder at WebFlow"
+    quote: "Pomáhám firmám budovat bezpečné a efektivní IT prostředí, které podporuje růst a inovace. Najdu pro vás optimální strategii a spolehlivá řešení."
+  - name: "Petr Hatoň"
+    title: "Founder & Solution Architect"
     avatar: "/images/testimonial-1.svg"
-    quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
-  - name: "Michael Chen"
-    title: "Lead Developer at CloudTech"
+    quote: "Navrhuji IT infrastrukturu, která snižuje náklady a zvyšuje bezpečnost. Vytvořím pro vás škálovatelné řešení, které podpoří váš byznys."
+  - name: "I vy se můžete stát našim specialistou"
+    title: ""
     avatar: "/images/testimonial-1.svg"
-    quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
+    quote: "Přidejte se k týmu, který tvoří inovativní IT řešení pro zákazníky. Společně budujeme bezpečné, efektivní a moderní technologie na míru."
 ---
 
 {{< hero 
     headline="Partner pro bezpečnou a efektivní IT infrastrukturu"
-    sub_headline="Vytváříme moderní a bezpečné IT prostředí na míru vašim potřebám. Specializujeme se na návrh IT infrastruktury, penetrační testování a odborné poradenství. Pomáháme firmám posílit jejich kybernetickou bezpečnost, optimalizovat informační systémy a předejít rizikům dříve, než se stanou problémem. Spolehněte se na naše zkušenosti a inovativní přístupy."
+    sub_headline="Vytváříme moderní a bezpečné IT prostředí na míru vašim potřebám. Specializujeme se na návrh IT infrastruktury, penetrační testování a odborné poradenství. Pomáháme nejen posílit kybernetickou bezpečnost, ale také optimalizovat IT procesy tak, aby snižovaly provozní náklady a umožnily větší zaměření na strategický rozvoj. Díky našim zkušenostem a inovativním přístupům získáte efektivní, bezpečné a škálovatelné IT řešení."
     hero_image="/images/system-design.jpeg"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
@@ -81,8 +81,8 @@ testimonials:
 {{< /features-section >}}
 
 {{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
+    title="Naši specialisté"
+    description=""
     animate="true"
     background-color="#f1f5f9"
 >}}

@@ -28,8 +28,5 @@ other = "Sign in"
 [get_started]
 other = "Get Started"
 
-[month]
-other = "month"
-
 [popular]
 other = "Popular"

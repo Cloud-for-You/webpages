@@ -86,7 +86,7 @@ defaultContentLanguageInSubdir = true
 
   # Global CTA Configuration (optional)
   [params.cta]
-    enable = true
+    enable = false
     title = "Ready to Get Started?"
     description = "Join companies using our platform"
     [params.cta.primary_button]

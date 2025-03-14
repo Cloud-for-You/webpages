@@ -13,11 +13,13 @@ features:
     description: "Soustředíme se na zajištění bezpečnosti IT infrastruktury již od začátku pomocí DevSecOps přístupu. Integrujeme bezpečnostní nástroje do CI/CD pipelinek a implementujeme monitoring, který nám umožní včas detekovat potenciální hrozby. Používáme technologie pro správu citlivých dat (HashiCorp Vault), monitoring (Prometheus, Grafana) a audity, což zaručuje vysokou úroveň ochrany."
   - title: "Škálovatelnost a spolehlivost Cloudových a On-Prem řešení"
     description: "Navrhujeme a implementujeme flexibilní a škálovatelné infrastruktury, které mohou být provozovány jak v cloudu, tak na on-premise serverech. Vyvažujeme náklady a výkonnost, aby infrastruktura mohla růst s vašimi potřebami. Používáme Kubernetes pro orkestraci kontejnerů, což zajišťuje flexibilitu a automatizované škálování, a zároveň zajišťujeme bezpečnou a vysoce dostupnou architekturu."
-demo:
-  description: "Explore our comprehensive design system built with TailwindCSS."
-  image: "/images/feature-2.svg"
+#demo:
+#  description: "Explore our comprehensive design system built with TailwindCSS."
+#  image: "/images/feature-2.svg"
 ---
 
+<!--
 ## Comprehensive Design System
 
 Our theme includes a complete design system that makes it easy to create beautiful, consistent interfaces. Built on TailwindCSS, it provides the flexibility to customize every aspect of your design while maintaining a professional look.
+-->
