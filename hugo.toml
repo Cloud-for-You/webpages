@@ -60,9 +60,9 @@ defaultContentLanguageInSubdir = true
 
 # Theme Parameters
 [params]
-  description = "Your site description"
+  description = "Cloud for You"
   author = "Petr Hatoň"
-  logo = "/images/logo.svg"      # Path to your logo
+  logo = "/images/cfy_logo_b.svg"      # Path to your logo
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   googleAnalytics = "G-XXXXXXXXXX"  # Only enabled in production
 
@@ -73,7 +73,7 @@ defaultContentLanguageInSubdir = true
     
     # Header Logo
     [params.header.logo]
-      src = "/images/logo.svg"
+      src = "/images/cfy_logo_b.svg"
     
     # Header Buttons (optional)
     [params.header.buttons]
