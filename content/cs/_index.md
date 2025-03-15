@@ -18,7 +18,7 @@ testimonials:
     quote: "Pomáhám firmám budovat bezpečné a efektivní IT prostředí, které podporuje růst a inovace. Najdu pro vás optimální strategii a spolehlivá řešení."
   - name: "Petr Hatoň"
     title: "Founder & Solution Architect"
-    avatar: "/images/testimonial-1.svg"
+    avatar: "/images/ph.png"
     quote: "Navrhuji IT infrastrukturu, která snižuje náklady a zvyšuje bezpečnost. Vytvořím pro vás škálovatelné řešení, které podpoří váš byznys."
   - name: "I vy se můžete stát našim specialistou"
     title: ""
