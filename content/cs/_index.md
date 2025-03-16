@@ -14,7 +14,7 @@ client_logos:
 testimonials:
   - name: "Vilma Hatoňová"
     title: "CEO & Founder"
-    avatar: "/images/testimonial-1.svg"
+    avatar: "/images/vh.jpeg"
     quote: "Pomáhám firmám budovat bezpečné a efektivní IT prostředí, které podporuje růst a inovace. Najdu pro vás optimální strategii a spolehlivá řešení."
   - name: "Petr Hatoň"
     title: "Founder & Solution Architect"
