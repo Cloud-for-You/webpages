@@ -6,7 +6,7 @@ layout: "pricing"
 
 {{< pricing-table-1 >}}
 {
-    "title": "Vyberte si řešení, které nejlépe vyhovuje vašim potřebám",
+    "title": "IT Infrastruktura",
     "description": "",
     "plans": [
         {
@@ -50,11 +50,11 @@ layout: "pricing"
             "billing_cycle": "hodina",
             "description": "Vysoce specializovaná konzultační činnost. Expertní podpora pro rozsáhlé projekty a náročné technické výzvy. Určeno pro zákazníky, kteří potřebují specializované poradenství a asistenci při optimalizaci či rozvoji infrastruktury.",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 100+ developers",
-                "Premium support: 36 months",
-                "Free updates: 36 months"
+                "Expertní technická podpora",
+                "Odborná asistence při řešení požadavků",
+                "Pomoc s orientací v technických možnostech",
+                "",
+                ""
             ],
             "button": {
                 "text": "Kontaktujte nás",
@@ -64,6 +64,36 @@ layout: "pricing"
     ]
 }
 {{< /pricing-table-1 >}}
+
+{{< pricing-table-1 >}}
+{
+    "title": "Bezpečnost",
+    "description": "",
+    "plans": [
+        {
+            "name": "Infrastruktura",
+            "price": "od 30.000,-",
+            "billing_cycle": "",
+            "description": "Odborné posouzení bezpečnostních opatření, identifikace rizik a doporučení pro zvýšení ochrany systémů a dat. Zaměřeno na prevenci a odolnost infrastruktury.",
+            "button": {
+                "text": "Kontaktujte nás",
+                "url": "#"
+            }
+        },
+        {
+            "name": "Aplikace",
+            "price": "od 50.000,-",
+            "billing_cycle": "",
+            "description": "Analýza zabezpečení aplikací, identifikace zranitelností a doporučení pro zvýšení ochrany. Zaměřeno na prevenci útoků a bezpečnostní best practices.",
+            "button": {
+                "text": "Kontaktujte nás",
+                "url": "#"
+            }
+        }
+    ]
+}
+{{< /pricing-table-1 >}}
+
 <!--
 <div class="mt-16"></div>
 
