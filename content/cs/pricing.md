@@ -52,9 +52,7 @@ layout: "pricing"
             "features": [
                 "Expertní technická podpora",
                 "Odborná asistence při řešení požadavků",
-                "Pomoc s orientací v technických možnostech",
-                "",
-                ""
+                "Pomoc s orientací v technických možnostech"
             ],
             "button": {
                 "text": "Kontaktujte nás",
