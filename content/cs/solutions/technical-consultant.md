@@ -17,7 +17,3 @@ badgeColor: "#2563eb"
 #  description: "See how our optimized build process delivers lightning-fast page loads and smooth transitions."
 #  image: "/images/feature-1.svg"
 ---
-
-## Built for Speed
-
-Our theme is engineered from the ground up with performance in mind. By leveraging Hugo's powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.

@@ -17,9 +17,3 @@ features:
 #  description: "Explore our comprehensive design system built with TailwindCSS."
 #  image: "/images/feature-2.svg"
 ---
-
-<!--
-## Comprehensive Design System
-
-Our theme includes a complete design system that makes it easy to create beautiful, consistent interfaces. Built on TailwindCSS, it provides the flexibility to customize every aspect of your design while maintaining a professional look.
--->
