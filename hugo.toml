@@ -119,7 +119,7 @@ defaultContentLanguageInSubdir = true
     name = "pricing"
     url = "/pricing"
     weight = 2
-  [[menu.main]]
-    name = "blog"
-    url = "/blog"
-    weight = 3
+#  [[menu.main]]
+#    name = "blog"
+#    url = "/blog"
+#    weight = 3
