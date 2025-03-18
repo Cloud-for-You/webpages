@@ -79,7 +79,6 @@
       "block",
       "blur-3xl",
       "border",
-      "border-2",
       "border-b",
       "border-gray-100",
       "border-gray-200",
@@ -159,8 +158,6 @@
       "hover:bg-gray-200",
       "hover:bg-gray-50",
       "hover:bg-primary-100",
-      "hover:bg-primary-700",
-      "hover:border-primary-600",
       "hover:grayscale-0",
       "hover:scale-105",
       "hover:shadow-lg",
@@ -382,7 +379,6 @@
       "z-50"
     ],
     "ids": [
-      "TableOfContents",
       "about-the-role",
       "automatically-collected-information",
       "backup-strategies",
@@ -405,6 +401,7 @@
       "how-we-use-your-information",
       "information-we-collect",
       "introduction",
+      "jaká-byla-výzva",
       "mit-license",
       "nav-toggle",
       "nice-to-have",

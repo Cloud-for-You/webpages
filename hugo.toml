@@ -77,13 +77,13 @@ defaultContentLanguageInSubdir = true
     #  src = "/images/cfy_logo_b.svg"
     
     # Header Buttons (optional)
-    [params.header.buttons]
-      [params.header.buttons.signIn]
-        text = "sign_in"
-        url = "/signin"
-      [params.header.buttons.getStarted]
-        text = "get_started"
-        url = "/get-started"
+    #[params.header.buttons]
+    #  [params.header.buttons.signIn]
+    #    text = "sign_in"
+    #    url = "/signin"
+    #  [params.header.buttons.getStarted]
+    #    text = "get_started"
+    #    url = "/get-started"
 
   # Global CTA Configuration (optional)
   [params.cta]
