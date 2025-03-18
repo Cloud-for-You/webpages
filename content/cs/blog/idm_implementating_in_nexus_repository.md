@@ -1,10 +1,10 @@
 ---
-title: "Content Management in Hugo: Best Practices"
+title: "Nexus jako centrální Docker repository v multitenant prostředí"
 date: 2023-07-24
-author: "Michael Park"
-description: "Learn effective strategies for managing content in Hugo, from organizing your content structure to implementing taxonomies and creating dynamic content relationships."
-categories: ["Content"]
-tags: ["hugo", "content-management", "organization", "workflow"]
+author: "Petr Hatoň"
+description: "Implementace centrálního idM do Community edition Sonatype Nexus repository."
+categories: ["devops"]
+tags: ["nexus", "sonatype", "opensource", "idM", "docker"]
 featured_image: "/images/blog/blog-5.jpg"
 ---
 
@@ -12,7 +12,9 @@ featured_image: "/images/blog/blog-5.jpg"
 
 ## Introduction
 
-Effective content management is crucial for maintaining a scalable Hugo site. This guide covers best practices for organizing and managing your content.
+Jelikož Sonatype Nexus ve variantě Community edition umožňuje příhlašování uživatelů pomocí LDAP, vypadalo toto řešení jednoduché. Nicméně největší problém vznikl, kdy každé jednotlivé repository pro každý tým bylo potřeba prezentovat na unikátním TCP portu. To mělo za následek, že bylo potřeba nejen řešit samostatné oprávněnní k jednotlivým repository, ale taktéž evidenci každého repository a jeho portu a následně i konfigurace mnoha systémů. Tím jak se dynamicky vytvářeli a odebírali projekty, bylo potřeba udržovat tuto evidenci a hlavně pružně reagovat na změny a konfigurovat vzdálené systémy, které se neobešli například bez odstávek nebo restartů.
+
+Z toho důvodu byla implementována FE proxy před Sonatype Nexus registry a všechna registry byla přesunuta za jeden jediný port.
 
 ## Content Organization
 
