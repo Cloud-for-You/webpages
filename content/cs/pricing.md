@@ -33,11 +33,9 @@ layout: "pricing"
             "description": "Komplexní nasazení řešení. Vhodné pro zákazníky, kteří chtějí efektivně realizovat projekt s využitím odborných znalostí a nejnovějších technologických postupů.",
             "featured": true,
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 10 developers",
-                "Premium support: 24 months",
-                "Free updates: 24 months"
+                "Implementace požadovaného řešení",
+                "Dokumentace",
+                "Technická podpora"
             ],
             "button": {
                 "text": "Kontaktujte nás",
