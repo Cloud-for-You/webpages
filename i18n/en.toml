@@ -30,3 +30,12 @@ other = "Get Started"
 
 [popular]
 other = "Popular"
+
+[read_more]
+other = "Read More"
+
+[previous_post]
+other = "Previous Post"
+
+[next_post]
+other = "Next Post"
