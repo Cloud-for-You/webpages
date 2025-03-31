@@ -69,12 +69,13 @@ defaultContentLanguageInSubdir = true
 
   # Header Configuration
   [params.header]
+    hideButtons = true
     background = "bg-white/80 backdrop-blur-sm"
     border = "border-b border-gray-100"
     
     # Header Logo
-    #[params.header.logo]
-    #  src = "/images/cfy_logo_b.svg"
+    [params.header.logo]
+      src = "/images/cfy_logo_b.svg"
     
     # Header Buttons (optional)
     [params.header.buttons]
