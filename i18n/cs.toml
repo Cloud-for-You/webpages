@@ -30,3 +30,12 @@ other = "Začínáme"
 
 [popular]
 other = "Oblíbené"
+
+[read_more]
+other = "Číst více"
+
+[previous_post]
+other = "Předchozí příspěvek"
+
+[next_post]
+other = "Další příspěvek"
