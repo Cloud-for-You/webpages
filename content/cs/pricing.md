@@ -151,6 +151,8 @@ layout: "pricing"
 }
 {{< /pricing-table-2 >}}
 -->
+
+<!--
 {{< faq >}}
 {
     "title": "Common Questions",
@@ -179,3 +181,4 @@ layout: "pricing"
     ]
 }
 {{< /faq >}}
+-->
