@@ -1,5 +1,4 @@
 # Basic Configuration
-#baseURL = "http://cloud-for-you.github.io/webpages/"
 baseURL = "http://www.cfy.cz/"
 canonifyURLs = true
 title = "CFY"
@@ -75,7 +74,7 @@ defaultContentLanguageInSubdir = true
     
     # Header Logo
     [params.header.logo]
-      src = "/images/cfy_logo_b.svg"
+      #src = "/images/cfy_logo_b.svg"
     
     # Header Buttons (optional)
     [params.header.buttons]
