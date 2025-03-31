@@ -37,6 +37,7 @@ testimonials:
 
 <!--{{< client-logos animate="true" >}}-->
 
+<!--
 {{< features-section 
     title="Modern Features for Modern Websites"
     description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
@@ -79,6 +80,7 @@ testimonials:
 >}}
 
 {{< /features-section >}}
+-->
 
 {{< testimonials 
     title="Naši specialisté"
