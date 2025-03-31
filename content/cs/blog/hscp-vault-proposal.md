@@ -56,4 +56,4 @@ Po nasazení Vaultu byly zaznamenány následující přínosy:
 * Snadná škálovatelnost řešení v rámci Kubernetes infrastruktury.
 * Možnost oddělené správy citlivých dat mezi jednotlivými projektovými týmy díky implementaci multitenantního přístupu.
 
-Tato implementace výrazně zvýšila bezpečnostní standardy a umožnila lepší řízení přístupu k citlivým informacím v infrastruktuře. Vault se stal klíčovým prvkem bezpečnostní architektury a poskytl robustní základ pro další rozvoj bezpečnostní politiky.
+Tato implementace velmi výrazně zvýšila bezpečnostní standardy a umožnila lepší řízení přístupu k citlivým informacím v infrastruktuře. Vault se stal klíčovým prvkem bezpečnostní architektury a poskytl robustní základ pro další rozvoj bezpečnostní politiky.
