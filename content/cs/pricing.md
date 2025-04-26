@@ -4,7 +4,7 @@ description: "Choose the perfect plan for your needs"
 layout: "pricing"
 ---
 
-{{< pricing-table-1 >}}
+{{< pricing-table-2 >}}
 {
     "title": "IT Infrastruktura",
     "description": "",
@@ -59,7 +59,7 @@ layout: "pricing"
         }
     ]
 }
-{{< /pricing-table-1 >}}
+{{< /pricing-table-2 >}}
 
 {{< pricing-table-1 >}}
 {
