@@ -12,7 +12,7 @@ featured_image: "/images/no_image.png"
 
 ## Jaká byla výzva
 
-Jelikož Sonatype Nexus ve variantě Community edition umožňuje příhlašování uživatelů spravovaných pouze pomocí LDAP, vypadalo toto řešení jednoduše. Největší problém však vznikl, kdy každé jednotlivé Docker repository pro každý tým bylo potřeba prezentovat na unikátním TCP portu. To mělo za následek, že bylo potřeba nejen řešit samostatné oprávněnní k jednotlivým repository, ale taktéž evidenci každého Docker repository a jeho portu a následně provádět konfigurace na mnoha systémech. Tím jak se dynamicky vytvářely a odebíraly projekty, bylo potřeba udržovat tuto evidenci ale hlavně pružně reagovat na všechny změnykonfigurací vzdálených systémů. Tyto systémy se občas neobešli bez odstávek nebo restartů, které znepříjemňovali používání služby a tím snižovali její kvalitu.
+Jelikož Sonatype Nexus ve variantě Community edition umožňuje příhlašování uživatelů spravovaných pouze pomocí LDAP, vypadalo toto řešení jednoduše. Největší problém však vznikl, kdy každé jednotlivé Docker repository pro každý tým bylo potřeba prezentovat na unikátním TCP portu. To mělo za následek, že bylo potřeba nejen řešit samostatné oprávněnní k jednotlivým repository, ale taktéž evidenci každého Docker repository a jeho portu a následně provádět konfigurace na mnoha systémech. Tím jak se dynamicky vytvářely a odebíraly projekty, bylo potřeba udržovat tuto evidenci ale hlavně pružně reagovat na všechny změny konfigurací vzdálených systémů. Tyto systémy se občas neobešli bez odstávek nebo restartů, které znepříjemňovali používání služby a tím snižovali její kvalitu.
 
 Z toho důvodu byla implementována FE proxy před Sonatype Nexus repository a všechna Docker registry byla přesunuta za jeden jediný port.
 
