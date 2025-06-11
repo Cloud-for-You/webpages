@@ -64,7 +64,7 @@ defaultContentLanguageInSubdir = true
   author = "Petr Hatoň"
   #logo = "/images/cfy_logo_b.svg"      # Path to your logo
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
-  googleAnalytics = "G-XXXXXXXXXX"  # Only enabled in production
+  googleAnalytics = "G-C0X15LTN7G"  # Only enabled in production
 
   # Header Configuration
   [params.header]
