@@ -31,7 +31,7 @@
                             <div class="absolute left-0 mt-2 {{ $dropdownConfig.width | default "w-72" }} opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
                                 <div class="{{ $dropdownConfig.container_padding | default "py-6" }} {{ $dropdownConfig.background | default "bg-white" }} {{ $dropdownConfig.border | default "border border-gray-100" }} {{ $dropdownConfig.shadow | default "shadow-xl" }} {{ $dropdownConfig.radius | default "rounded-lg" }}">
                                     {{ range .Params.submenu }}
-                                    <a href="{{ .url | relLangURL }}" class="block {{ $dropdownConfig.item_padding | default "px-8 py-3" }} {{ $dropdownConfig.text_size | default "text-sm" }} {{ $dropdownConfig.text_color | default "text-gray-700" }}"> {{ i18n .name | default .name }}</a>
+                                    <a href="{{ .url | relLangURL }}" class="block {{ $dropdownConfig.item_padding | default "px-8 py-3" }} {{ $dropdownConfig.text_size | default "text-sm" }} {{ $dropdownConfig.text_color | default "text-gray-700" }}">{{ i18n .name | default .name }}</a>
                                     {{ end }}
                                 </div>
                             </div>
@@ -99,10 +99,10 @@
                 {{ range .Site.Menus.main }}
                     {{ if .Params.has_submenu }}
                     <div class="py-2">
-                        <div class="text-xl text-gray-900 font-bold mb-2">{{ .Name }}</div>
+                        <div class="text-xl text-gray-900 font-bold mb-2">{{ i18n .Name | default .Name }}</div>
                         <div class="pl-4">
                             {{ range .Params.submenu }}
-                            <a href="{{ .url }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ .name }}</a>
+                            <a href="{{ .url }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ i18n .name | default .name }}</a>
                             {{ end }}
                         </div>
                     </div>
