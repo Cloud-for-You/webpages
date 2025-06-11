@@ -115,13 +115,13 @@
                 <div class="pt-4 space-y-4">
                     {{ with $headerConfig.buttons.signIn }}
                     <a href="{{ .url | default "#" }}" class="{{ with .mobileClass }}{{ . }}{{ else }}block text-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600{{ end }}">
-                        {{ .text | default "Sign in" }}
+                        {{ i18n .text | default "Sign in" }}
                     </a>
                     {{ end }}
                     
                     {{ with $headerConfig.buttons.getStarted }}
                     <a href="{{ .url | default "#" }}" class="{{ with .mobileClass }}{{ . }}{{ else }}block text-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out bg-primary-600 text-white hover:bg-primary-700 hover:scale-105{{ end }}">
-                        {{ .text | default "Get Started" }}
+                        {{ i18n .text | default "Get Started" }}
                     </a>
                     {{ end }}
                 </div>
