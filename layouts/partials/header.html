@@ -102,12 +102,12 @@
                         <div class="text-xl text-gray-900 font-bold mb-2">{{ i18n .Name | default .Name }}</div>
                         <div class="pl-4">
                             {{ range .Params.submenu }}
-                            <a href="{{ .url }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ i18n .name | default .name }}</a>
+                            <a href="{{ .url | relLangURL }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ i18n .name | default .name }}</a>
                             {{ end }}
                         </div>
                     </div>
                     {{ else }}
-                    <a href="{{ .URL }}" class="{{ with $headerConfig.menu.mobileLinkClass }}{{ . }}{{ else }}block text-xl text-gray-900 hover:text-primary-600 font-bold transition duration-200 py-2{{ end }}">{{ i18n .Name | default .Name }}</a>
+                    <a href="{{ .URL | relLangURL }}" class="{{ with $headerConfig.menu.mobileLinkClass }}{{ . }}{{ else }}block text-xl text-gray-900 hover:text-primary-600 font-bold transition duration-200 py-2{{ end }}">{{ i18n .Name | default .Name }}</a>
                     {{ end }}
                 {{ end }}
                 
