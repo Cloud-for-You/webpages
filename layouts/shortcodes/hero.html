@@ -9,6 +9,7 @@
 {{ $gradient_from := .Get "gradient-from" }}
 {{ $gradient_to := .Get "gradient-to" }}
 {{ $gradient_angle := .Get "gradient-angle" | default "180" }}
+{{ $extra_content_b64 := .Get "extra_content_b64" }}
 
 <section class="relative overflow-hidden" {{ if $gradient_from }}style="background:linear-gradient({{ $gradient_angle }}deg,{{ $gradient_from }},{{ $gradient_to | default $gradient_from }})"{{ else }}class="bg-gradient-to-b from-gray-50 to-white"{{ end }}>
     {{ if $background_image }}
@@ -49,5 +50,10 @@
                 <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-secondary-100 rounded-full filter blur-3xl opacity-50"></div>
             </div>
         </div>
+        {{ if $extra_content_b64 }}
+        <div class="mt-12">
+            {{ $extra_content_b64 | base64Decode | safeHTML }}
+        </div>
+        {{ end }}
     </div>
 </section>
