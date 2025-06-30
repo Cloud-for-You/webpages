@@ -19,6 +19,9 @@ other = "Návrh IT Infrastruktury"
 [penetration_testing]
 other = "Penetrační testování"
 
+[finops_solution]
+other = "Udržitelné náklady na IT"
+
 [technical_consultant]
 other = "Technické konzultace (TAM)"
 

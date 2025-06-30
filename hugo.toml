@@ -113,6 +113,7 @@ defaultContentLanguageInSubdir = true
       submenu = [
         { name = "design_it_infrastructure", url = "/solutions/design-it-infrastructure/" },
         { name = "penetration_testing", url = "/solutions/penetration-testing/" },
+        { name = "finops_solution", url = "/solutions/finops-solution/"},
         { name = "technical_consultant", url = "/solutions/technical-consultant/" }
       ]
   [[menu.main]]
