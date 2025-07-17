@@ -4,3 +4,4 @@ node_modules/
 hugo_stats.json
 public/
 resources/
+static/css/style.css
