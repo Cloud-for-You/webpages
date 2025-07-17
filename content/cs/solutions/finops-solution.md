@@ -1,6 +1,6 @@
 ---
 title: "Udržitelné náklady na IT"
-description: "Pokud nemáte pod kontrolou finance v IT, pomůžeme vám identifikovat nedostatky a navrhnout řešení pomocí kterého získáte přehled o nákladech v IT a tím vytvoříte transparentně financovanou a provozovanou IT infrastrukturu."
+description: "Pokud si nejste jisti, zda máte finance v IT plně pod kontrolou, pomůžeme vám odhalit potenciální slabá místa a navrhnout řešení, díky kterému získáte jistotu v oblasti nákladů a zajistíte transparentní financování i provoz IT infrastruktury."
 layout: "feature"
 badge: "Finance"
 badgeColor: "#16a34a"
