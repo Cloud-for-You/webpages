@@ -1,9 +1,10 @@
 ---
 title: "Technické konzultace"
 description: "Servis pro zákazníky, kteří potřebují pomoc s plánováním a úspěšným nasazením svého softwaru nebo infrastruktury. TAM slouží jako jednotné kontaktní místo pro zákazníky, protože jejich technologické potřeby se vyvíjejí."
-layout: "feature"
+layout: "solution"
 badge: "TAM"
 badgeColor: "#2563eb"
+badgeImage: "/images/technical-consultant.jpeg"
 #features:
 #  - title: "Sub-second Page Loads"
 #    description: "Experience instant page transitions with Hugo's static site generation. Pages load in milliseconds, ensuring visitors stay engaged."
