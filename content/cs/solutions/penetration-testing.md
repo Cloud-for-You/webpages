@@ -1,9 +1,10 @@
 ---
 title: "Penetrační testování"
 description: "Prověříme bezpečnost vašich IT systémů dříve, než to udělají útočníci! Nabízíme komplexní penetrační testování, které pomáhá identifikovat a eliminovat zranitelnosti ve vašich systémech. Naše expertní služby zajistí, že vaše IT infrastruktura, aplikace a data zůstanou v bezpečí."
-layout: "feature"
+layout: "solution"
 badge: "Bezpečnost"
 badgeColor: "#16a34a"
+badgeImage: "/images/penetration-testing.jpeg"
 features:
   - title: "Bezpečnost K8S clusterů"
     description: "Ověříme konfiguraci RBAC, síťovou bezpečnost, izolaci workloadů a ochranu dat."
