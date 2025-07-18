@@ -1,9 +1,10 @@
 ---
 title: "Návrh IT infrastruktury"
 description: "Navrhneme IT infrastrukturu přesně podle potřeb a požadavků. Postaráme se o to, aby byla spolehlivá, bezpečná a škálovatelná. Zajistíme správnou kombinaci technologií, ať už jde o servery, cloudová řešení nebo síťovou architekturu, vše nastavíme tak, aby fungovalo efektivně a bez zbytečných komplikací. Vy se můžete soustředit na svůj byznys, my se postaráme o jeho technologické zázemí."
-layout: "feature"
+layout: "solution"
 badge: "Design"
 badgeColor: "#7c3aed"
+badgeImage: "/images/infrastructure-design.png"
 features:
   - title: "Automatizace a orchestrace pomocí IaC"
     description: "Vytváříme a spravujeme IT infrastrukturu prostřednictvím kódu (Infrastructure as Code, IaC), což umožňuje plně automatizovaný přístup k nasazení a správě serverů, síťové infrastruktury a dalších komponent. Díky IaC lze snadno spravovat a verzovat infrastrukturu a minimalizovat riziko lidských chyb. Vybereme technologie jako Terraform, Ansible nebo Pulumi pro bezproblémovou správu a provisioning."
