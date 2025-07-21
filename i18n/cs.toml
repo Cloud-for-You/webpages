@@ -42,3 +42,6 @@ other = "Předchozí příspěvek"
 
 [next_post]
 other = "Další příspěvek"
+
+[phone]
+other = "Telefon"

@@ -42,3 +42,6 @@ other = "Previous Post"
 
 [next_post]
 other = "Next Post"
+
+[phone]
+other = "Phone"

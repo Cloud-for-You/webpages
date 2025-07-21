@@ -84,6 +84,14 @@ defaultContentLanguageInSubdir = true
       [params.header.buttons.getStarted]
         text = "get_started"
         url = "/get-started"
+  
+  [params.footer]
+    column_1_title = "contact"
+    column_1_address = "Adresa sídla společnosti"
+    column_1_ico = "123456789"
+    column_1_dic = "CZ123456789"
+    column_1_mail = "info@cfy.cz"
+    column_1_phone = "+420 123 456 789"
 
   # Global CTA Configuration (optional)
   [params.cta]
