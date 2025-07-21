@@ -19,8 +19,11 @@ other = "Design IT Infrastructure"
 [penetration_testing]
 other = "Penetration testing"
 
+[finops_solution]
+other = "FinOps in IT"
+
 [technical_consultant]
-other = "Technical consultant (TAM)"
+other = "Technical consultant"
 
 [sign_in]
 other = "Sign in"
