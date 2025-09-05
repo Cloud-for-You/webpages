@@ -42,3 +42,18 @@ other = "Previous Post"
 
 [next_post]
 other = "Next Post"
+
+[office_address]
+other = "Registered Office"
+
+[email]
+other = "e-mail"
+
+[phone]
+other = "Phone"
+
+[company_id]
+other= "Company ID"
+
+[vat_id]
+other = "VAT ID"

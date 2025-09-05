@@ -42,3 +42,18 @@ other = "Předchozí příspěvek"
 
 [next_post]
 other = "Další příspěvek"
+
+[office_address]
+other = "Sídlo společnosti"
+
+[email]
+other = "e-mail"
+
+[phone]
+other = "Telefon"
+
+[company_id]
+other= "IČ"
+
+[vat_id]
+other = "DIČ"
