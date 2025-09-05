@@ -87,11 +87,11 @@ defaultContentLanguageInSubdir = true
   
   [params.footer]
     column_1_title = "contact"
-    column_1_address = "Adresa sídla společnosti"
-    column_1_ico = "123456789"
-    column_1_dic = "CZ123456789"
-    column_1_mail = "info@cfy.cz"
-    column_1_phone = "+420 123 456 789"
+    column_1_address = ""
+    column_1_ico = ""
+    column_1_dic = ""
+    column_1_mail = "office@cfy.info"
+    column_1_phone = "+420 72x 856 c0x"
 
   # Global CTA Configuration (optional)
   [params.cta]
