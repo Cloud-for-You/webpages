@@ -57,10 +57,10 @@
             <div class="flex-1">
                 <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-900 mb-4">{{ i18n .Site.Params.footer.column_1_title }}</h3>
                 <ul class="space-y-2">
-                    <p>Sídlo společnosti: {{ .Site.Params.footer.column_1_address }}</p>
-                    <p>IČ: {{ .Site.Params.footer.column_1_ico }}</p>
-                    <p>DIČ: {{ .Site.Params.footer.column_1_dic }}</p>
-                    <p>E-mail: <a href="mailto:{{ .Site.Params.footer.column_1_mail }}" class="text-gray-600 hover:text-primary-600">{{ .Site.Params.footer.column_1_mail }}</a>
+                    <p>{{ i18n "office_address" }}: {{ .Site.Params.footer.column_1_address }}</p>
+                    <p>{{ i18n "company_id" }}: {{ .Site.Params.footer.column_1_ico }}</p>
+                    <p>{{ i18n "vat_id" }}: {{ .Site.Params.footer.column_1_dic }}</p>
+                    <p>{{ i18n "email" }}: <a href="mailto:{{ .Site.Params.footer.column_1_mail }}" class="text-gray-600 hover:text-primary-600">{{ .Site.Params.footer.column_1_mail }}</a>
                     {{ with .Site.Params.footer.column_1_phone }}</p>
                     <li>{{ i18n "phone" }}: <a href="tel:{{ . }}" class="text-gray-600 hover:text-primary-600">{{ . }}</a></li>
                     {{ end }}
